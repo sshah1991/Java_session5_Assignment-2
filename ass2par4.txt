@@ -1,0 +1,23 @@
+package myPack;
+
+import java.util.Scanner;
+
+public class StackDemo {
+	public static void main(String[] args) {
+		int ch = 0;
+		Scanner input = new Scanner(System.in);
+
+		System.out.println("enter your choice:");
+		System.out.println("1. Fixed Length");
+		System.out.println("2. Variabl Length");
+		ch = input.nextInt();
+		switch (ch) {
+		case 1:
+			FixedStack FS = new FixedStack();
+			break;
+		case 2:
+			VariableStack VS = new VariableStack();
+		}
+
+	}
+}

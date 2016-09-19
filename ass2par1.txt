@@ -1,0 +1,6 @@
+package myPack;
+
+interface interfaceStack{
+	void push(int i);
+	void pop();
+}
